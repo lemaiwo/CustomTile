@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (c) 2009-2014 SAP SE, All Rights Reserved -->
+<chip xmlns="http://schemas.sap.com/sapui2/services/Chip/1">
+    <implementation>
+        <sapui5>
+            <basePath>./</basePath>
+            <viewName>view/CustomTile.view.js</viewName>
+        </sapui5>
+    </implementation>
+    <appearance>
+        <title>Custom Dynamic Applauncher</title>
+        <description>Custom Dynamic Applauncher Chip</description>
+    </appearance>
+    <contracts>
+        <consume id="configuration">
+            <parameters>
+                <parameter name="tileConfiguration"></parameter>
+            </parameters>
+        </consume>
+        <consume id="preview" />
+        <consume id="writeConfiguration" />
+        <consume id="configurationUi" />
+        <consume id="search" />
+        <consume id="refresh" />
+        <consume id="visible" />
+        <consume id="bag" />
+        <consume id="url" />
+        <consume id="actions" />
+        <consume id="types">
+            <parameters>
+                <parameter name="supportedTypes">tile,link</parameter>
+            </parameters>
+        </consume>
+    </contracts>
+</chip>
