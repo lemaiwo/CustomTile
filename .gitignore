@@ -11,3 +11,5 @@ fioriHtmlRunner.html
 .*/fioriHtmlRunner.html
 mock_preview_sapui5.html
 .*/mock_preview_sapui5.html
+preview.json
+cp.project.properties.json
